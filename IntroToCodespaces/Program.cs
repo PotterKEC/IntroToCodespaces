@@ -1,8 +1,8 @@
 ﻿class Program
 {
-
     public static void Main(string[] args)
     {
-        Console.WriteLine("welcome to codespaces");
+        string input = Console.ReadLine();
+        Console.Write($"You entered: {input}");
     }
 }
